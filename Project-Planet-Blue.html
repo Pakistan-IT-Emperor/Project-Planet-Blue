@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Global Warming </title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color:white;
+        background-image: url(PRACT/w1.jpg);
+        background-size:cover ;
+        background-repeat:no repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      .icon {
+        position: absolute;
+        left: 540px;
+      }
+      .icon-image {
+        height: 190px;
+        border-radius: 70px;
+      }
+      .title {
+        position: absolute;
+        left: 445px;
+        top: 210px;
+      }
+      .title-a {
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      .line {
+        position: absolute;
+        left: 210px;
+        top: 300px;
+        color: black;
+      }
+      .line-a {
+        font-size: 30px;
+      }
+
+      /* Define the glow animation */
+      @keyframes glow {
+        0% {
+          color: black;
+        }
+        50% {
+          color: yellow;
+        }
+        100% {
+          color: black;
+        }
+      }
+      .note-a{
+        position:absolute;
+        top:475px;
+        width:110px;
+        left:10px;
+       
+      }
+      .info-a{
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size:18px;
+      }
+      .aa{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+      .ab{
+        position:absolute;
+        left:240px;
+        top:450px;
+      }
+      .ac{
+        position:absolute;
+        width:800px;
+        top:530px;
+        left:240px;
+        
+      }
+      .ad{
+        font-size: 20px;
+        
+      }
+      .da{
+        font-weight: bold;;
+      }
+      .ae{
+        font-size:20px;
+      }
+      .de{
+        font-size:20px;
+      }
+      
+      .ef,
+      .de,
+      .ad{
+        font-size:20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="title">
+      <p class="title-a">Global Warming</p>
+    </div>
+    <div class="line" id="text">
+      <p class="line-a">
+        <span>You</span>
+        <span>want</span>
+        <span>to</span>
+        <span>Learn</span>
+        <span>about</span>
+        <span>Global</span>
+        <span>Warming</span>
+        <span>come</span>
+        <span>on</span>
+        <span>let's</span>
+        <span>Learn</span>
+        <span>together.</span>
+      </p>
+    </div>
+
+    <script>
+      window.onload = function () {
+        const spans = document.querySelectorAll('.line span'); // Correctly target spans in the .line container
+        for (let i = 0; i < spans.length; i++) {
+          spans[i].style.animation = `glow 1s ease`;
+          spans[i].style.animationDelay = `${i * 0.25}s`; // Delays each word by 0.2 seconds
+          spans[i].style.animationFillMode = "forwards"; // Ensures it holds the final state
+        }
+      };
+    </script>
+
+    <div class="note-a">
+      <p class="info-a">Information</p>
+      <p class="aa">In 1900, the concentration of carbon dioxide (CO2) in the
+         atmosphere was 291 parts per million (ppm). This was an increase from 288 ppm in 1860.<br><br>
+         The amount of CO2 in the atmosphere has increased since the start of the Industrial
+          Revolution in 1750. This increase is due to the burning of fossil fuels for energy and the 
+          growth of the population. In 1900, the world released 
+         almost 2 billion metric tons of CO2 from fossil fuels. By 1960, that number
+          had more than quadrupled.
+        <br><br>
+        Monthly mean atmospheric carbon dioxide (CO₂) concentrations reached a record high of 426.91 parts 
+        per million (ppm) in June 2024. This represents an increase of roughly 20 percent compared with average
+         CO₂ levels
+         recorded in June 1990. In 2023, global 
+         average annual CO₂ concentrations reached a record high of 421 ppm.<br><br><br><br>
+      </p>
+    </div>
+    <div class="ab"><h2 class="bc">Global Warming: Understanding the Crisis</h2></div>
+    <div class="ac"><p class="ca">
+      Here's a content draft for a webpage on Global Warming. It covers the basics of what global warming is, its causes, effects, and solutions, structured in a way suitable for a webpage.
+      
+      Global Warming: Understanding the Crisis
+      What is Global Warming?
+      Global warming refers to the gradual increase in the Earth’s average surface temperature
+       due to human activities that increase levels of greenhouse gases in the atmosphere. Since the 
+       Industrial Revolution, human actions—such as burning fossil fuels, deforestation, and intensive 
+       agriculture—have led to significant changes in the environment. 
+      These changes trap heat in the Earth's atmosphere, leading to rising temperatures worldwide.
+      <br><br><br>
+      <span class="ad">Causes of Global Warming</span><br><br>
+      1.   <span class="da">Burning Fossil Fuels:</span> Coal, oil, and natural 
+      gas are burned to produce energy, releasing carbon dioxide (CO₂) and other greenhouse gases.<br>
+      2.   <span class="da">Deforestation:</span> Trees absorb CO₂,
+       so cutting them down means more CO₂ remains in the atmosphere, enhancing the greenhouse effect.<br>
+      3.   <span class="da">Agriculture and Livestock:</span> Intensive
+       farming and livestock practices release large amounts of methane, a potent greenhouse gas.<br>
+      4.   <span class="da">Industrial Processes:</span> Many manufacturing processes emit 
+      various greenhouse gases that contribute to warming the planet. 
+      <br><br><br>
+      <span class="ae">Effects of Global Warming</span>
+      <br><br>
+      Global warming has far-reaching effects that impact every aspect of life on Earth.<br>
+       Some key effects include:<br><br>
+       <ul>
+    <li><span class="da">Melting Ice and Rising Sea Levels:</span> The warming climate melts polar ice caps and glaciers, 
+          causing sea levels to rise, which threatens coastal communities and habitats.</li><br>
+    <li><span class="da">Extreme Weather Events:</span> Global warming contributes to more frequent and severe 
+      weather events, such as hurricanes, droughts, wildfires, and heavy rains.</li><br>
+    <li><span class="da">Ecosystem Disruption:</span> Rising temperatures and changing weather patterns disrupt 
+        ecosystems, pushing many species toward extinction and affecting biodiversity.</li><br>
+    <li><span class="da">Health Risks:</span> Warmer temperatures can worsen air quality, leading to respiratory issues. 
+      There is also an increased risk of heat-related illnesses and the spread of infectious diseases.</li><br>
+       </ul>
+       
+       <p class="de">What Can We Do to Stop Global Warming?</p><br>
+       <p class="ed">Though global warming is a serious issue, there are steps we can take to reduce its effects:
+        <br><br>
+        1.   <span class="da">Shift to Renewable Energy:</span> Replacing fossil fuels with renewable energy sources 
+        like wind, solar, and hydroelectric power can reduce greenhouse gas emissions.<br><br>
+        2.   <span class="da">Energy Efficiency: </span>Using energy-efficient appliances and reducing energy consumption helps lower emissions.<br><br>
+        3.   <span class="da">Protect and Restore Forests: </span>Forests act as carbon sinks, absorbing CO₂ from
+         the atmosphere. Protecting existing forests and planting new trees are crucial.<br><br>
+        4.   <span class="da">Sustainable Agriculture:</span> Reducing emissions from agricultural practices, supporting 
+        sustainable farming, and shifting towards plant-based diets can make a difference.<br><br>
+        5.   <span class="da">Support Policy Changes:</span> Advocating for environmental policies and supporting international 
+        agreements like the Paris Agreement can help address global warming on a larger scale.
+       </p>
+       <br><br>
+       <p class="ef">Join the Fight Against Global Warming</p><br>
+       <p class="fe">
+        Every action counts. By making small changes in our daily lives and supporting 
+        policies and initiatives aimed at reducing emissions, we can
+         help combat global warming. Together, we can work towards a more sustainable
+          and resilient future for all.
+      </p>
+
+
+    </p></div>
+  </body>
+</html>
